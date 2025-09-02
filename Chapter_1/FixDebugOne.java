@@ -13,8 +13,8 @@ public class FixDebug One
      // 2. Wrong main method signature - "Main" should be lowercase "main" and should use String[]args.
      // 3. Typo in "System" - written as "Systm".
      // 4. Missing semicolon - after System.out.println("Hello World!").
-    
-}
+     // 5. No closing bracket 
+
 */
 
 // Fixed Version
@@ -26,4 +26,5 @@ public class FixDebugOne
         System.out.println("Hello World!"); 
     } 
 }
+
 
