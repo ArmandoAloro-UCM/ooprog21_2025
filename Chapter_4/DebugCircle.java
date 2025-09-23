@@ -35,19 +35,20 @@ public class DebugCircle
     public static void main(String[] args)
     {
         // Create a Circle object with radius 5
-        DebugCircle circle = new DebugCircle(5);
+        DebugCircle userCircle = new DebugCircle(5);
         
         // Test the methods
         System.out.println("Circle Test Results:");
-        System.out.println("Radius: " + circle.getRadius());
-        System.out.println("Diameter: " + circle.getDiameter());
-        System.out.println("Area: " + circle.getArea());
+        System.out.println("Radius: " + userCircle.getRadius());
+        System.out.println("Diameter: " + userCircle.getDiameter());
+        System.out.println("Area: " + userCircle.getArea());
         
         // Create another circle with different radius
-        DebugCircle circle2 = new DebugCircle(10);
+        DebugCircle userCircle2 = new DebugCircle(10);
         System.out.println("\nSecond Circle Test:");
-        System.out.println("Radius: " + circle2.getRadius());
-        System.out.println("Diameter: " + circle2.getDiameter());
-        System.out.println("Area: " + circle2.getArea());
+        System.out.println("Radius: " + userCircle2.getRadius());
+        System.out.println("Diameter: " + userCircle2.getDiameter());
+        System.out.println("Area: " + userCircle2.getArea());
     }
+
 }
