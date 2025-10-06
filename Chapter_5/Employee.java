@@ -1,4 +1,4 @@
-public class Employee {
+class Employee {
     private int employeeNumber;
     private double payRate;
     private static final int MAX_EMPLOYEE_NUMBER = 9999;
@@ -64,4 +64,5 @@ public class Employee {
     public static double getOvertimeMultiplier() {
         return OVERTIME_MULTIPLIER;
     }
+
 }
