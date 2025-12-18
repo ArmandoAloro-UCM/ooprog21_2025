@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.Insets?>
+
+<BorderPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.kidsfirstaid.ModulesController"
+            prefHeight="800.0" prefWidth="1000.0" styleClass="modules-pane">
+    
+    <top>
+        <HBox alignment="CENTER_LEFT" spacing="20">
+            <padding>
+                <Insets top="30" left="30" right="30" bottom="20"/>
+            </padding>
+            <Button text="←" onAction="#handleBackButton" styleClass="back-button">
+                <font>
+                    <Font name="Arial Bold" size="24"/>
+                </font>
+            </Button>
+            <Label text="Choose a Module" styleClass="modules-header">
+                <font>
+                    <Font name="Arial Bold" size="32"/>
+                </font>
+            </Label>
+        </HBox>
+    </top>
+    
+    <center>
+        <VBox alignment="CENTER" spacing="20">
+            <padding>
+                <Insets top="20" left="100" right="100" bottom="20"/>
+            </padding>
+            
+            <Button text="SPRAINS" onAction="#handleSprainsButton" styleClass="module-button" prefWidth="800" prefHeight="90">
+                <font>
+                    <Font name="Arial Bold" size="28"/>
+                </font>
+            </Button>
+            
+            <Button text="BURNS" onAction="#handleBurnsButton" styleClass="module-button" prefWidth="800" prefHeight="90">
+                <font>
+                    <Font name="Arial Bold" size="28"/>
+                </font>
+            </Button>
+            
+            <Button text="CPR" onAction="#handleCPRButton" styleClass="module-button" prefWidth="800" prefHeight="90">
+                <font>
+                    <Font name="Arial Bold" size="28"/>
+                </font>
+            </Button>
+            
+            <Button text="CUTS" onAction="#handleCutsButton" styleClass="module-button" prefWidth="800" prefHeight="90">
+                <font>
+                    <Font name="Arial Bold" size="28"/>
+                </font>
+            </Button>
+            
+            <Button text="HOTLINE" onAction="#handleHotlineButton" styleClass="module-button" prefWidth="800" prefHeight="90">
+                <font>
+                    <Font name="Arial Bold" size="28"/>
+                </font>
+            </Button>
+            
+            <Region prefHeight="20"/>
+            
+            <Button text="ABOUT US" onAction="#handleAboutUsButton" styleClass="aboutus-button" prefWidth="400" prefHeight="70">
+                <font>
+                    <Font name="Arial Bold" size="24"/>
+                </font>
+            </Button>
+        </VBox>
+    </center>
+</BorderPane>

@@ -1,0 +1,222 @@
+/* General Styles */
+.root {
+    -fx-font-family: "Arial";
+}
+
+/* Welcome Screen */
+.welcome-pane {
+    -fx-background-color: linear-gradient(to bottom, #5DDEF4 0%, #5DDEF4 60%, #F4E4C1 60%, #F4E4C1 100%);
+}
+
+.welcome-title {
+    -fx-text-fill: #F4A261;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 5, 0, 2, 2);
+}
+
+.welcome-subtitle {
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 5, 0, 2, 2);
+}
+
+.start-button {
+    -fx-background-color: #F4A261;
+    -fx-text-fill: white;
+    -fx-background-radius: 40;
+    -fx-min-width: 300px;
+    -fx-min-height: 100px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0, 3, 3);
+}
+
+.start-button:hover {
+    -fx-background-color: #E69551;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 15, 0, 4, 4);
+}
+
+/* Modules Screen */
+.modules-pane {
+    -fx-background-color: linear-gradient(to bottom, #F4E4C1 0%, #F4E4C1 20%, #5DDEF4 20%, #5DDEF4 100%);
+}
+
+.modules-header {
+    -fx-text-fill: #00008B;
+}
+
+.module-button {
+    -fx-background-color: #F4A261;
+    -fx-text-fill: #00008B;
+    -fx-background-radius: 25;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 8, 0, 2, 2);
+}
+
+.module-button:hover {
+    -fx-background-color: #E69551;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 12, 0, 3, 3);
+}
+
+.aboutus-button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-background-radius: 25;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 8, 0, 2, 2);
+}
+
+.aboutus-button:hover {
+    -fx-background-color: #45A049;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 12, 0, 3, 3);
+}
+
+/* Content Screen */
+.content-pane {
+    -fx-background-color: #5DDEF4;
+}
+
+.page-label {
+    -fx-text-fill: #00008B;
+}
+
+/* Quiz Screen */
+.quiz-pane {
+    -fx-background-color: linear-gradient(to bottom, #FFD54F 0%, #FFD54F 50%, #FFA726 50%, #FFA726 100%);
+}
+
+.quiz-question {
+    -fx-background-color: white;
+    -fx-padding: 30;
+    -fx-background-radius: 15;
+    -fx-border-color: #F4A261;
+    -fx-border-width: 3;
+    -fx-border-radius: 15;
+    -fx-text-fill: #00008B;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 8, 0, 2, 2);
+}
+
+.check-button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-background-radius: 75;
+    -fx-min-width: 150px;
+    -fx-min-height: 150px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0, 3, 3);
+}
+
+.check-button:hover {
+    -fx-background-color: #45A049;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 15, 0, 4, 4);
+}
+
+.check-button:disabled {
+    -fx-background-color: #A5D6A7;
+    -fx-opacity: 0.6;
+}
+
+.wrong-button {
+    -fx-background-color: #F44336;
+    -fx-text-fill: white;
+    -fx-background-radius: 75;
+    -fx-min-width: 150px;
+    -fx-min-height: 150px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0, 3, 3);
+}
+
+.wrong-button:hover {
+    -fx-background-color: #E53935;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 15, 0, 4, 4);
+}
+
+.wrong-button:disabled {
+    -fx-background-color: #EF9A9A;
+    -fx-opacity: 0.6;
+}
+
+.feedback-label {
+    -fx-text-fill: #00008B;
+}
+
+.next-button {
+    -fx-background-color: #2196F3;
+    -fx-text-fill: white;
+    -fx-background-radius: 20;
+    -fx-min-width: 150px;
+    -fx-min-height: 50px;
+    -fx-cursor: hand;
+}
+
+.next-button:hover {
+    -fx-background-color: #1976D2;
+}
+
+/* About Us Screen */
+.aboutus-pane {
+    -fx-background-color: #5DDEF4;
+}
+
+.aboutus-header {
+    -fx-text-fill: #00008B;
+}
+
+.aboutus-scroll {
+    -fx-background-color: white;
+    -fx-background-radius: 15;
+}
+
+.aboutus-scroll .viewport {
+    -fx-background-color: white;
+}
+
+.aboutus-title {
+    -fx-text-fill: #F4A261;
+}
+
+.aboutus-subtitle {
+    -fx-text-fill: #00008B;
+}
+
+.aboutus-text {
+    -fx-text-fill: #333333;
+}
+
+.aboutus-footer {
+    -fx-text-fill: #F4A261;
+    -fx-alignment: center;
+}
+
+/* Common Buttons */
+.back-button {
+    -fx-background-color: #F4A261;
+    -fx-text-fill: white;
+    -fx-background-radius: 35;
+    -fx-min-width: 70px;
+    -fx-min-height: 70px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 8, 0, 2, 2);
+}
+
+.back-button:hover {
+    -fx-background-color: #E69551;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 12, 0, 3, 3);
+}
+
+.nav-button {
+    -fx-background-color: #F4A261;
+    -fx-text-fill: white;
+    -fx-background-radius: 50;
+    -fx-min-width: 100px;
+    -fx-min-height: 100px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 8, 0, 2, 2);
+}
+
+.nav-button:hover {
+    -fx-background-color: #E69551;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 12, 0, 3, 3);
+}
+
+.nav-button:disabled {
+    -fx-background-color: #CCCCCC;
+    -fx-opacity: 0.5;
+}

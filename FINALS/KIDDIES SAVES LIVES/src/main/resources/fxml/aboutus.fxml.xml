@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.Insets?>
+
+<BorderPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.kidsfirstaid.AboutUsController"
+            prefHeight="800.0" prefWidth="1000.0" styleClass="aboutus-pane">
+    
+    <top>
+        <HBox alignment="CENTER_LEFT" spacing="20">
+            <padding>
+                <Insets top="30" left="30" right="30" bottom="20"/>
+            </padding>
+            <Button text="←" onAction="#handleBackButton" styleClass="back-button">
+                <font>
+                    <Font name="Arial Bold" size="24"/>
+                </font>
+            </Button>
+            <Label text="About Us" styleClass="aboutus-header">
+                <font>
+                    <Font name="Arial Bold" size="32"/>
+                </font>
+            </Label>
+        </HBox>
+    </top>
+    
+    <center>
+        <ScrollPane fitToWidth="true" styleClass="aboutus-scroll">
+            <padding>
+                <Insets top="20" left="80" right="80" bottom="40"/>
+            </padding>
+            <VBox spacing="20">
+                <padding>
+                    <Insets top="20" left="40" right="40" bottom="40"/>
+                </padding>
+                
+                <Label text="Kiddies Save Lives - Kids First Aid" styleClass="aboutus-title">
+                    <font>
+                        <Font name="Arial Bold" size="28"/>
+                    </font>
+                </Label>
+                
+                <Label text="Welcome to Kiddies Save Lives!" wrapText="true" styleClass="aboutus-text">
+                    <font>
+                        <Font name="Arial" size="18"/>
+                    </font>
+                </Label>
+                
+                <Label wrapText="true" styleClass="aboutus-text">
+                    <text>Our mission is to teach children essential first aid skills in a fun and engaging way. We believe that every child should know how to help in an emergency situation.</text>
+                    <font>
+                        <Font name="Arial" size="18"/>
+                    </font>
+                </Label>
+                
+                <Label text="What We Offer:" styleClass="aboutus-subtitle">
+                    <font>
+                        <Font name="Arial Bold" size="22"/>
+                    </font>
+                </Label>
+                
+                <VBox spacing="10">
+                    <Label text="• Interactive learning modules on Sprains, Burns, CPR, and Cuts" wrapText="true" styleClass="aboutus-text">
+                        <font>
+                            <Font name="Arial" size="16"/>
+                        </font>
+                    </Label>
+                    <Label text="• Fun quizzes to test your knowledge" wrapText="true" styleClass="aboutus-text">
+                        <font>
+                            <Font name="Arial" size="16"/>
+                        </font>
+                    </Label>
+                    <Label text="• Emergency hotline information" wrapText="true" styleClass="aboutus-text">
+                        <font>
+                            <Font name="Arial" size="16"/>
+                        </font>
+                    </Label>
+                    <Label text="• Achievement system to track your progress" wrapText="true" styleClass="aboutus-text">
+                        <font>
+                            <Font name="Arial" size="16"/>
+                        </font>
+                    </Label>
+                </VBox>
+                
+                <Label text="Our Team:" styleClass="aboutus-subtitle">
+                    <font>
+                        <Font name="Arial Bold" size="22"/>
+                    </font>
+                </Label>
+                
+                <Label wrapText="true" styleClass="aboutus-text">
+                    <text>This application was developed by a dedicated team of educators and developers who are passionate about child safety and education.</text>
+                    <font>
+                        <Font name="Arial" size="18"/>
+                    </font>
+                </Label>
+                
+                <Label text="Sources and References:" styleClass="aboutus-subtitle">
+                    <font>
+                        <Font name="Arial Bold" size="22"/>
+                    </font>
+                </Label>
+                
+                <VBox spacing="10">
+                    <Label text="• Mayo Clinic - First Aid Guidelines" wrapText="true" styleClass="aboutus-text">
+                        <font>
+                            <Font name="Arial" size="16"/>
+                        </font>
+                    </Label>
+                    <Label text="• American Heart Association - CPR Guidelines" wrapText="true" styleClass="aboutus-text">
+                        <font>
+                            <Font name="Arial" size="16"/>
+                        </font>
+                    </Label>
+                    <Label text="• American Burn Association - Burn First Aid" wrapText="true" styleClass="aboutus-text">
+                        <font>
+                            <Font name="Arial" size="16"/>
+                        </font>
+                    </Label>
+                    <Label text="• Emergency Services Philippines - Hotline Information" wrapText="true" styleClass="aboutus-text">
+                        <font>
+                            <Font name="Arial" size="16"/>
+                        </font>
+                    </Label>
+                </VBox>
+                
+                <Label text="Contact Us:" styleClass="aboutus-subtitle">
+                    <font>
+                        <Font name="Arial Bold" size="22"/>
+                    </font>
+                </Label>
+                
+                <Label wrapText="true" styleClass="aboutus-text">
+                    <text>For questions, feedback, or suggestions, please reach out to us at kiddiessavelives@example.com</text>
+                    <font>
+                        <Font name="Arial" size="18"/>
+                    </font>
+                </Label>
+                
+                <Region prefHeight="20"/>
+                
+                <Label text="Remember: First aid knowledge can save lives!" styleClass="aboutus-footer">
+                    <font>
+                        <Font name="Arial Bold Italic" size="20"/>
+                    </font>
+                </Label>
+            </VBox>
+        </ScrollPane>
+    </center>
+</BorderPane>

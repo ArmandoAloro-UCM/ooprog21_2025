@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+
+<StackPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+           fx:controller="com.kidsfirstaid.WelcomeController"
+           prefHeight="800.0" prefWidth="1000.0" styleClass="welcome-pane">
+    
+    <VBox alignment="CENTER" spacing="30">
+        <Label text="KIDDIES SAVE LIVES !" styleClass="welcome-title">
+            <font>
+                <Font name="Arial Bold" size="60"/>
+            </font>
+        </Label>
+        
+        <Label text="KIDS FIRST AID" styleClass="welcome-subtitle">
+            <font>
+                <Font name="Arial Bold" size="40"/>
+            </font>
+        </Label>
+        
+        <Region prefHeight="50"/>
+        
+        <Button text="START" onAction="#handleStartButton" styleClass="start-button">
+            <font>
+                <Font name="Arial Bold" size="36"/>
+            </font>
+        </Button>
+    </VBox>
+</StackPane>
